@@ -12,4 +12,4 @@ The project was done in collaboration with [Wenhe Li](https://github.com/WenheLI
 
 ## Quick Access
 
--> [Link](https://pixel-fantasy.vercel.app/) (hosted on [Vercel](https://vercel.com))
+First plug in a Leap Motion into your device, and then hit -> [Link](https://pixel-fantasy.vercel.app/) (hosted on [Vercel](https://vercel.com)).
