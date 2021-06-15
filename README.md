@@ -8,7 +8,7 @@ Pixel Fantasy is a web-based interactive experience powered by Leap Motion and t
 
 Manipulate the canvas using your left hand and paint with your right hand. The paint drops will stick to your finger joints with different colors from several color palettes, until you dip or splash them onto the canvas.
 
-The project was done in collaboration with [Wenhe Li](https://github.com/WenheLI).
+The project was done in collaboration with [Wenhe Li](https://github.com/WenheLI) in Spring 2018.
 
 ## Quick Access
 
