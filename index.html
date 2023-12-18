@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Voxel Fantasy</title>
     <!-- <script src="https://js.leapmotion.com/leap-0.6.4.js"></script> -->
     <!-- <script src="https://js.leapmotion.com/leap-0.6.4.min.js"></script> -->
@@ -10,21 +9,59 @@
 
     <script src="js/three.min.js"></script>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+      }
 
-        #three_canvas {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-        }
+      #three_canvas {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+
+      #warning {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+        color: white;
+        text-align: center;
+        font-size: large;
+        background: black;
+        border: white;
+        border-style: solid;
+        padding: 1.5em;
+        font-family: 'Courier New', Courier, monospace;
+        max-width: 32em;
+      }
+
+      a {
+        color: white;
+        font-style: italic;
+        font-weight: bold;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <canvas id="three_canvas"></canvas>
+    <div id="warning">
+      <b>Voxel Fantasy</b> requires a
+      <a href="https://www.ultraleap.com/">Leap Motion Controller</a>, and only
+      supported by older drivers that works with
+      <a href="https://github.com/leapmotion/leapjs">leapjs</a>.
+      <br />
+      <p style="padding-top: 1em; padding-bottom: 1em; font-size: small">
+        Check out the
+        <a href="https://www.youtube.com/watch?v=CoZa4juJYbQ">demo video</a>.
+      </p>
+      <hr />
+      <p style="padding-top: 1em; font-size: small">
+        You are seeing this message because no hand has been detected.
+      </p>
+    </div>
     <script src="js/LeapMotion.js"></script>
     <script src="js/config.js"></script>
     <script src="js/Bullet.js"></script>
@@ -35,6 +72,5 @@
     <script src="js/Canvas.js"></script>
     <script src="js/index.js"></script>
     <script src="js/PointsToShapeVertices.js"></script>
-</body>
-
+  </body>
 </html>
